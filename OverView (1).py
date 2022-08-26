@@ -60,3 +60,18 @@ for i in range(2, n+ 1):
         if (prime == 1):
             count+=1
 print(count)
+
+
+
+
+
+
+
+lt=[1,2,3,4,5,6,7,8,9]
+print(lt)
+# List comprehension
+new_list=[]
+for i in lt:
+    new_list.append(i**2)
+    print(i)
+print(new_list)
